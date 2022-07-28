@@ -36,9 +36,9 @@ body {
     text-decoration: none;
   }
   
-  nav, footer a:hover {
+  /* nav, footer a:hover {
     color: rgb(33, 222, 68);
-  }
+  }*/
   
   main {
     display: flex;
