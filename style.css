@@ -16,7 +16,7 @@ body {
   }
   
   h1 {
-    font-size: 200%;
+    font-size: 220%;
   }
   
   h2 {
@@ -26,8 +26,8 @@ body {
   
   nav ul {
     display: flex;
-    justify-content: space-between;
     min-width: 300px;
+    font-size: 20px;
   }
   
   nav a {
