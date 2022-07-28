@@ -107,6 +107,35 @@ body {
     margin-bottom: 12px;
     padding: 4px;
   }
+
+  .products {
+    flex: 1;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .card > header {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card > img {
+    width: 100%;
+  }
   
   @media screen and (max-width: 768px) {
     header,
