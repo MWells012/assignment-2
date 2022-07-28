@@ -76,19 +76,6 @@ body {
     background-image: linear-gradient(140deg, #3b0054 00%, #D7A1F9 100%);
     color: #fff;
   }
-
-  .work .links {
-    display: none;
-    padding: 1% 0;
-  }
-  
-  .work:hover .links {
-    display: block;
-  }
-  
-  .work h3 {
-    font-size: 150%;
-  }
   
   .links a {
     color: skyblue;
