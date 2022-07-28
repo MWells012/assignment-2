@@ -27,13 +27,13 @@ body {
   nav ul {
     min-width: 300px;
     font-size: 20px;
-    padding-left: 30%;
   }
   
   nav a {
     color: #b9c6ae;
     font-weight: bold;
     text-decoration: none;
+    padding: 14px 20px;
   }
   
   main {
