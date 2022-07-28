@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.3;
+    line-height: 1.5;
     text-align: justify;
   }
   
@@ -25,9 +25,9 @@ body {
   }
   
   nav ul {
-    display: flex;
     min-width: 300px;
     font-size: 20px;
+    padding-left: 30%;
   }
   
   nav a {
@@ -35,10 +35,6 @@ body {
     font-weight: bold;
     text-decoration: none;
   }
-  
-  /* nav, footer a:hover {
-    color: rgb(33, 222, 68);
-  }*/
   
   main {
     display: flex;
@@ -53,19 +49,14 @@ body {
   }
   
   article {
-    border-bottom: 3px solid #d8a47f;
+    border-bottom: 3px solid darkorchid;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   
   article p {
     margin: 2% 0;
     font-size: 110%;
-  }
-  
-  input,
-  button {
-    width: 100%;
-    margin: 2% 0;
-    padding: 1%;
   }
   
   footer {
@@ -114,14 +105,18 @@ body {
   }
   .card img {
     height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
   }
   .card > header {
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 20px;
   }
   
   .card > img {
-    width: 100%;
+    width: 80%;
   }
   
   @media screen and (max-width: 768px) {
