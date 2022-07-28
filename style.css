@@ -125,7 +125,9 @@ body {
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
   }
-  
+  .card img {
+    height: 250px;
+  }
   .card > header {
     border-radius: 5px;
     padding: 20px;
