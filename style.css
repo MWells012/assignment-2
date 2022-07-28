@@ -110,7 +110,6 @@ body {
 
   .products {
     flex: 1;
-    background-color: var(--white);
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -120,7 +119,6 @@ body {
   .card {
     border-style: solid;
     border-width: 2px;
-    border-radius: var(--border-radius);
     padding: 10px;
     flex: 0 0 300px;
     transform: rotate(8deg);
