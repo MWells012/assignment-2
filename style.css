@@ -30,10 +30,11 @@ body {
   }
   
   nav a {
-    color: #b9c6ae;
+    color: darkorchid;
     font-weight: bold;
     text-decoration: none;
     padding: 14px 20px;
+    font-size: 20px;
   }
   
   main {
